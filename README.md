@@ -4,7 +4,7 @@ Solar-layout helper that turns a list of panel coordinates into two precise maps
 where to bolt mounts onto rafters and where to join adjacent modules.
 Plus a visualization so you can verify the result quickly.
 
-## How It Works (TL;DR)
+## How It Works
 
 - We read panel top-left coordinates (defaults mirror the PDF sample data).
 - `LayoutCalculator` builds the context: generates a rafter grid, normalizes panel
