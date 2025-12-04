@@ -1,0 +1,18 @@
+panel:
+  width: 44.7
+  height: 71.1
+rafters:
+  spacing: 16.0
+  edge_clearance: 2.0
+mounts:
+  span_limit: 48.0
+  cantilever_limit: 16.0
+  edge_clearance: 2.0
+joints:
+  horizontal_gap_threshold: 1.0
+  vertical_tolerance: 0.5
+validation:
+  allow_negative_coordinates: false
+  allow_duplicates: false
+  allow_overlaps: false
+  coordinate_tolerance: 0.0001
